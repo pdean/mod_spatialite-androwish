@@ -1,3 +1,3 @@
 Example content  
-  Application.mk   
-  Android.mk  
+  Application.mk must include APP_STL := c++_shared 
+   
