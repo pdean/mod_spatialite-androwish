@@ -39,7 +39,7 @@ cd ..
 
 #libspatialite
 ver=5.0.0-beta0
-#wget http://www.gaia-gis.it/gaia-sins/libspatialite-sources/libspatialite-${ver}.tar.gz
+wget http://www.gaia-gis.it/gaia-sins/libspatialite-sources/libspatialite-${ver}.tar.gz
 tar -xvzf libspatialite-${ver}.tar.gz
 cd libspatialite-${ver}/
 # versions in tar maybe too old for android
