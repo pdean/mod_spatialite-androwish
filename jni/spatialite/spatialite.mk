@@ -1,7 +1,6 @@
 include $(CLEAR_VARS)
 # ./configure --build=x86_64-pc-linux-gnu --host=arm-linux-eabi
 LOCAL_MODULE    := mod_spatialite
-LOCAL_MODULE_FILENAME    := mod_spatialite
 
 # SQLite flags copied from ASOP
 common_sqlite_flags := \
