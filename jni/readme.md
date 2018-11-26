@@ -1,1 +1,3 @@
-Example for Application.mk and Android.mk
+Example content  
+  Application.mk 
+  Android.mk  
