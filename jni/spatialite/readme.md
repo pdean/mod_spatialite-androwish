@@ -1,3 +1,3 @@
-sh download.sh  
+sh downloads.sh  
 cd ..  
 ndk-build  
