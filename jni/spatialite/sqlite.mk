@@ -1,4 +1,6 @@
+LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
+
 # ./configure --build=x86_64-pc-linux-gnu --host=arm-linux-eabi
 LOCAL_MODULE    := sqlitex
 
@@ -21,7 +23,7 @@ LOCAL_CFLAGS    := $(common_sqlite_flags)
         
 LOCAL_LDLIBS    := -llog 
 LOCAL_C_INCLUDES := 
-LOCAL_SRC_FILES := $(SQLITE_PATH)/sqlite3.c
+LOCAL_SRC_FILES := sqlite-autoconf-3250300/sqlite3.c
 LOCAL_STATIC_LIBRARIES := 
 
 include $(BUILD_STATIC_LIBRARY)

@@ -1,4 +1,6 @@
+LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
+
 # ./configure --build=x86_64-pc-linux-gnu --host=arm-linux-eabi
 # find proj-5.2.0/ -name "*.c" | grep -Ev "tests|doc" | sort | awk '{ print "\t"$1" \\" }'
 LOCAL_MODULE    := proj

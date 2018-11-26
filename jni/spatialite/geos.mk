@@ -1,4 +1,6 @@
+LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
+
 # ./configure --build=x86_64-pc-linux-gnu --host=arm-linux-eabi
 # find geos-3.6.3/ -name "*.cpp" | grep -Ev "tests|doc" | sort | awk '{ print "\t"$1" \\" }'
 LOCAL_MODULE := geos
