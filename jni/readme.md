@@ -1,2 +1,2 @@
-Application.mk must include APP_STL := c++_shared 
+Application.mk must include APP_STL := c++_shared for geos  
    
